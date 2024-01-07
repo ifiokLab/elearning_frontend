@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css'; // Import the styles
+//import 'react-quill/dist/quill.snow.css'; // Import the styles
 import axios from 'axios';
 import { Link,useParams } from 'react-router-dom';
 import Header from '../components/header';
