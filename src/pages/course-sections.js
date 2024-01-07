@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link,useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css'; // Import the styles
+//import 'react-quill/dist/quill.snow.css'; // Import the styles
 import Header from '../components/header';
 import 'swiper/swiper-bundle.css';
 import '../styles/course-sections.css';
