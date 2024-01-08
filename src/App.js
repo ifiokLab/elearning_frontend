@@ -1,12 +1,13 @@
 //import logo from './logo.svg';
-import './App.css';
+import React  from 'react';
+//import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
+
 import Home from "./pages/home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
-import Header from './components/header';
+
 import Footer from './components/footer';
 import CourseDetailPage from './pages/course-detail';
 import CourseViewPage from './pages/course-view-page';
@@ -32,6 +33,7 @@ import  EditProfile  from "./pages/profile-edit";
 import CourseEdit from './pages/course-edit';
 import Search from './pages/search';
 import Profile from './pages/profile';
+import '../styles/footer.css';
 function App() {
   return (
     <BrowserRouter>
